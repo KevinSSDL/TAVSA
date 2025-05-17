@@ -1,0 +1,42 @@
+/* responsive home */
+@media (max-width: 600px) {
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales {
+    padding: 2em 1em;
+    max-width: 100%;
+  }
+
+  .titulo-principal {
+    font-size: 1.4em;
+    padding-left: 0;
+  }
+
+  .utensilios {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto 1em auto;
+  }
+
+  .contenido-diferenciales {
+    display: block;
+    text-align: center;
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 100%;
+    display: block;
+    margin: 1em 0;
+  }
+
+  .imagen-diferenciales {
+    box-shadow: none;
+  }
+
+  .logo {
+    width: 50%;
+  }
+}
+

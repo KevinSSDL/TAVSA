@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - TAVSA</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/responsivos/responsive-soporte.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/responsivos/responsive-header.css" media="screen and (max-width: 600px)">
+</head>
+<body>
+    
+    <header>
+        <div class="caja">
+            <h1><img src="imagen/logotipo.png" alt="Logotipo" class="logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicio.html">Servicios</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="trabajaconnosotros.html">Trabaja Con Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="informacion-contacto">
+        <h2>Formulario de Soporte</h2>
+        <p>¿Tienes problemas o dudas con el sistema de TAVSA? Completa el siguiente formulario y nuestro equipo de soporte se pondrá en contacto contigo lo antes posible.</p>
+
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+            
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Descripción del Problema o Pregunta</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En qué horario prefiere ser atendido?</legend> 
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de TAVSA?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+
+        <h3>Horarios de Soporte</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h - 18h</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08h - 18h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08h - 18h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>       
+
+    <footer>
+        <h1><img src="imagen/logotipo-gris.png" alt="Logotipo" class="logo"></h1>
+        <p class="copyright">&copy; 2025 TAVSA</p>
+    </footer>
+</body>
+</html>

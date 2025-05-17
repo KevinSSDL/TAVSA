@@ -1,0 +1,383 @@
+/*Css para Header y Footer*/
+body {
+  font-family: sans-serif;
+}
+
+header {
+    background-color: #00BFFF;
+    padding: 2.5vw 0;
+}
+
+.caja {
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: nowrap; 
+}
+
+.logo {
+    width: 15vw;
+    max-width: 150px;
+    flex-shrink: 0; 
+}
+
+nav {
+    flex-grow: 1; 
+    text-align: right; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.8vw;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background: url(imagen/footer.png);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/* Css para home */
+.principal {
+    padding: 3em 0;
+    background: #FFFFFF;
+    max-width: 94%;  
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    padding-left: 2%;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 12.8%;
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FFFFFF);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    max-width: 94%; 
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #FFFFFF;
+}
+
+.contenido-diferenciales {
+    max-width: 68%; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:before {
+    content: "★";
+}
+
+.items:first-child {
+    font-weight: bold;
+}
+
+.imagen-diferenciales {
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+    width: 40%;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
+
+/*Css para Servicios*/
+.productos {
+    width: 90%; 
+    margin: 0 auto;
+    padding: 5vw;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 3vw 2vw; 
+    box-sizing: border-box;
+    border: 0.2vw solid black;
+    border-radius: 1vw;
+}
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 2.2vw;
+}
+
+.producto-descripcion {
+    font-size: 1.5vw;
+}
+
+.producto-precio {
+    font-size: 1.6vw;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.ejemplo {
+    width: 80%; 
+    max-width: 300px; 
+    height: auto;
+}
+
+/*Css para Soporte*/
+form{
+    margin: 4vw 0; 
+}
+
+form label, form legend{
+    display: block;
+    font-size: 2vw; 
+    margin: 0 0 1.5vw; 
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 2vw; 
+    padding: 1vw 3vw; 
+    width: 50%; 
+}
+
+.checkbox{
+    margin: 2vw 0;
+}
+
+.enviar{
+    width: 40%; 
+    padding: 1.5vw 0; 
+    font-size: 2vw; 
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 1vw; 
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 4vw 4vw;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid black;
+    padding: 1vw 2vw; 
+}
+
+.informacion-contacto{
+    width: 90%; 
+    margin: 0 auto;
+}
+
+
+/*Css para Trabaja con Nosotros*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 0 3px 12px rgba(13,71,161,0.25);
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h1 {
+  color: #0d47a1;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.jobs-list h2 {
+  color: #0d47a1;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 25px;
+}
+
+.category h3 {
+  border-bottom: 2px solid #0d47a1;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+  color: #0d47a1;
+}
+
+.category .job {
+  background: #e8f0fe;
+  border: 1.5px solid #0d47a1; 
+  transition: background-color 0.3s ease;
+  cursor: default;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.category .job:hover {
+  background-color: #d0dffa;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #0d47a1;
+}
+
+.job-description {
+  font-size: 1rem;
+  color: #333;
+}
+
+.job-description strong {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.application-form h2 {
+  color: #0d47a1;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.download-section {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  background: #e8f0fe;
+  padding: 15px 20px;
+  border: 1.5px solid #0d47a1;
+  border-radius: 8px;
+}
+
+.download-section a {
+  color: #0d47a1;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.download-section a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+

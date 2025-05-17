@@ -1,0 +1,38 @@
+/* responsive servicios */
+@media (max-width: 600px) {
+    .productos {
+        padding: 5vw 2vw; 
+    }
+
+    .productos li {
+        display: block;
+        width: 100%;           
+        margin: 4vw 0;        
+        padding: 6vw 4vw;     
+        font-size: 5vw;       
+    }
+
+    .productos h2 {
+        font-size: 6vw;
+    }
+
+    .productos li:hover h2 {
+        font-size: 6.5vw;
+    }
+
+    .producto-descripcion {
+        font-size: 4.5vw;
+    }
+
+    .producto-precio {
+        font-size: 5vw;
+        margin-top: 2vw;
+    }
+}
+
+
+
+
+
+
+
