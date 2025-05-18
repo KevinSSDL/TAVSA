@@ -381,3 +381,192 @@ td, th{
 }
 
 
+@media (max-width: 600px) {
+ /* responsive header */
+   .caja {
+        flex-direction: column;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    nav {
+        text-align: center;
+        overflow-x: visible;
+        white-space: normal;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 2vw;
+    }
+
+    nav a {
+        font-size: 4vw;
+    }
+
+/* responsive home */
+  .principal,
+  .mapa-contenido,
+  .contenido-diferenciales {
+    padding: 2em 1em;
+    max-width: 100%;
+  }
+
+  .mapa p {
+    font-size: 1.2em; 
+    margin: 1em 0; 
+  }
+
+  .titulo-principal {
+    font-size: 1.4em;
+    padding-left: 0;
+  }
+
+  .utensilios {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto 1em auto;
+  }
+
+  .contenido-diferenciales {
+    display: block;
+    text-align: center;
+  }
+
+  .lista-diferenciales,
+  .imagen-diferenciales {
+    width: 100%;
+    display: block;
+    margin: 1em 0;
+  }
+
+  .imagen-diferenciales {
+    box-shadow: none;
+  }
+
+/* responsive servicios */
+    .productos {
+        padding: 5vw 2vw; 
+    }
+
+    .productos li {
+        display: block;
+        width: 100%;           
+        margin: 4vw 0;        
+        padding: 6vw 4vw;     
+        font-size: 5vw;       
+    }
+
+    .productos h2 {
+        font-size: 6vw;
+    }
+
+    .productos li:hover h2 {
+        font-size: 6.5vw;
+    }
+
+    .producto-descripcion {
+        font-size: 4.5vw;
+    }
+
+    .producto-precio {
+        font-size: 5vw;
+        margin-top: 2vw;
+    }
+
+/* responsive-soporte.css */
+  .informacion-contacto {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.informacion-contacto h2,
+.informacion-contacto p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+form {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.input-padron {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.enviar {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+td, th {
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+form label,
+form legend {
+    font-size: 1em;
+}
+
+/* responsive trabaja con nosotros */
+  .main-container {
+    margin: 20px 10px;
+    padding: 20px 15px;
+  }
+
+  .intro h1,
+  .jobs-list h2,
+  .application-form h2 {
+    font-size: 1.4em;
+  }
+
+  .intro p {
+    font-size: 1em;
+  }
+
+  .category h3 {
+    font-size: 1.2em;
+  }
+
+  .category .job {
+    padding: 12px 15px;
+  }
+
+  .job-title {
+    font-size: 1rem;
+  }
+
+  .job-description {
+    font-size: 0.95rem;
+  }
+
+  .download-section {
+    font-size: 1rem;
+    padding: 12px 15px;
+  }
+
+}
+
+
